@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Relevant_topic",
+    "address": "Boris Trajkovski",
+    "cuisine": "Italian",
+    "website": "https://srekja.mk",
+    "description": "Awesome"
+  },
+  {
+    "name": "Test2",
+    "address": "Test Street 10",
+    "cuisine": "Indian",
+    "website": "https://test.com",
+    "description": "It is also amazing"
+  }
+]
