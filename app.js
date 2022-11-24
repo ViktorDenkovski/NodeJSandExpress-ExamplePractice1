@@ -10,8 +10,6 @@ app.set("view engine", "ejs"); //template engine EJS installed with npm install 
 app.use(express.static("public")); //this sets up a request handler that will be executed on each incoming request that simply checks if this is a request for a statis file
 app.use(express.urlencoded({ extendend: false })); //access form and store in file
 
-app.use(express.urlencoded({ extended: false }));
-
 app.get("/", function (req, res) {
   res.render("index"); //render a template, parse a template file with help of template engine and convert to html to send back to the browser
 });
